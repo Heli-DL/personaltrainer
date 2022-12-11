@@ -9,14 +9,14 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div>
-      <Box sx={{width: {lg:'65%'}, marginLeft: {sm: '3rem'}}}>
+      <Box sx={{width: {lg:'65%'}, margin: {sm: '4rem 0 3rem 3rem'}, marginTop: {sm: '4rem'}}}>
         <h1 className="homeheading">Personal trainer database</h1>
       </Box>
-      <Stack direction="row" spacing={1}>
-      <Button sx={{marginLeft: {xs: '1rem', sm: '3rem', md: '6rem'}, marginRight: {sm: '1em'}}} color="primary" variant="contained" size="large">
+      <Stack direction="row" spacing={0} height={45}>
+      <Button sx={{marginLeft: {xs: '1rem', sm: '6rem'}, marginRight: {sm: '1em'}}} color="primary" variant="contained" size="large">
         <Link style={{textDecoration: "none", color: "white"}} to={'/Customers'}>CUSTOMERS</Link>
       </Button>
-      <Button color="primary" variant="contained" size="large">
+      <Button sx={{marginX: {sm: 1}}} color="primary" variant="contained" size="large">
         <Link style={{textDecoration: "none", color: "white"}} to={'/Trainings'}>TRAININGS</Link>
       </Button>
       <Button sx={{ padding: 0}}>
