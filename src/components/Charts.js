@@ -39,8 +39,8 @@ export default function Charts() {
 
   return (
     <Grid container justifyContent="center">
-      <Grid item lg={8}>
-        <Box sx={{ marginY: 5, marginLeft: 5, p: 5, bgcolor: 'background.default', borderRadius: 5 }}>
+      <Grid item md={8} xs={12}>
+        <Box sx={{ margin: {xs: 3, md: 5}, p: 5, bgcolor: 'background.default', borderRadius: 5 }}>
           <h2>Durations per activity</h2>
           <ResponsiveContainer width="95%" height={500}>
             <BarChart width={800} height={450} data={sumDurations} 
@@ -52,8 +52,8 @@ export default function Charts() {
           </ResponsiveContainer>
         </Box>
       </Grid>
-      <Grid item lg={4}>
-      <Box sx={{ marginY: 5, marginX: 'auto', p: 5, bgcolor: 'background.default', borderRadius: 5, width: '80%'}}>
+      <Grid item md={4} xs={12}>
+      <Box sx={{ marginY: {xs: 2, md: 5}, marginX: 'auto', p: 5, bgcolor: 'background.default', borderRadius: 5, width: '80%', height: {xs: "400px"}}}>
         <h2>TOP 3</h2>
         <p>Most time trained</p>
         {

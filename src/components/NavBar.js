@@ -92,12 +92,14 @@ function NavBar(props) {
             variant="h5"
             noWrap
             component="a"
-            href=""
+            href="/personaltrainer/"
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: "'Audiowide', cursive",
+              fontSize: '1em',
+              visibility: {xs: 'hidden', sm: 'visible'},
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: '#fff',

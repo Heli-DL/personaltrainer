@@ -146,7 +146,7 @@ export default function Customers(props) {
 
   return (
     <Grid container>
-      <Grid item md={8} sm={12}>
+      <Grid item md={8} sm={12} className="customerh1" container>
         <h1>CUSTOMERS</h1>
       </Grid>
       <Grid item md={4} sm={12} container justifyContent="center" alignItems="center" direction="row">

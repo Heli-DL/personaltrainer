@@ -54,9 +54,34 @@ p {
     font-size: 1.25em;
 }
 
+.homeheading {
+    font-size: 5em;
+}
+
 @media screen and (max-width: 600px) {
     h1 {
         text-align: center;
         margin: 1rem auto;
+    }
+
+    .homeheading {
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .homeheading {
+        font-size: 2em;
+        margin: 10px auto;
+    }
+
+    .customerh1 {
+        justify-content: center;
     }
 }

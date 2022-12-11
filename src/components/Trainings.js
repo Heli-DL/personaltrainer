@@ -93,7 +93,7 @@ export default function Trainings(props) {
         <h1 style={{textAlign: 'center', margin: '1.5rem'}}>TRAININGS</h1>     
       </Grid>
       <Grid item xs={12}>
-        <Box sx={{m: '0 auto', p: 5, borderRadius: 5, bgcolor: 'background.default', width: '60%', boxShadow: 1 }}>
+        <Box sx={{m: '0 auto', p: 5, borderRadius: 5, bgcolor: 'background.default', width: {xs: '90%', lg: '60%'}, boxShadow: 1 }}>
           <div className={`${props.agTheme}`}
               style={{height: '500px'}} >
             <AgGridReact
