@@ -79,7 +79,6 @@ export default function AddCustomer(props) {
             fullWidth
           />
           <TextField
-            autoFocus
             margin="dense"
             name="email"
             value={customer.email}
@@ -88,7 +87,6 @@ export default function AddCustomer(props) {
             fullWidth
           />
           <TextField
-            autoFocus
             margin="dense"
             name="phone"
             value={customer.phone}
