@@ -38,7 +38,7 @@ function App() {
       <div className="background">
         <NavBar darkMode={darkMode} changeMode={changeMode}/>
         <Routes>
-          <Route path="personaltrainer" element={<Home/>}/>
+          <Route path="personaltrainer/" element={<Home/>}/>
           <Route path="Customers" element={<Customers agTheme={agTheme}/>}/>
           <Route path="Trainings" element={<Trainings agTheme={agTheme}/>}/>
           <Route path="Calendar" element={<Calendar/>}/>

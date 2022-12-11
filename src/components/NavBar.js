@@ -36,7 +36,7 @@ function NavBar(props) {
             variant="h6"
             noWrap
             component="a"
-            href="/personaltrainer"
+            href="/personaltrainer/"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
