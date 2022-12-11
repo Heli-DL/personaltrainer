@@ -127,8 +127,8 @@ export default function Customers(props) {
 
   // AG-Grid table
   const columns = [
-      { headerName: 'Firstname', field: "firstname", width: 200, sortable: true, filter: true },
-      { headerName: 'Lastname', field: "lastname", sortable: true, filter: true },  
+      { headerName: 'Firstname', field: "firstname", width: 170, sortable: true, filter: true },
+      { headerName: 'Lastname', field: "lastname", width: 170, sortable: true, filter: true },  
       { headerName: 'Street address', field: "streetaddress", sortable: true, filter: true },
       { headerName: 'Postcode', field: "postcode", width: 120, sortable: true, filter: true },
       { headerName: 'City', field: "city", width: 140, sortable: true, filter: true },
@@ -155,7 +155,7 @@ export default function Customers(props) {
           <Button color="secondary" variant="contained" onClick={() => onBtnExport()}>Export</Button>
         </ButtonGroup>
       </Grid>
-      <Box sx={{ marginX: 2, p: 3, bgcolor: 'background.default', borderRadius: 5, width: '98%' }}>
+      <Box sx={{ marginX: 'auto', p: 3, bgcolor: 'background.default', borderRadius: 5, width: '95%' }}>
         <div className={`${props.agTheme}`}
             style={{height: '600px', margin: 'auto'}} >
           <AgGridReact
