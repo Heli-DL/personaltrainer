@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/personaltrainer/static/css/main.4b93bb30.css",
+    "main.js": "/personaltrainer/static/js/main.4a82f1ba.js",
+    "static/js/787.d5a97497.chunk.js": "/personaltrainer/static/js/787.d5a97497.chunk.js",
+    "static/media/workout.jpg": "/personaltrainer/static/media/workout.d3f0a93b7cfdb449b1ce.jpg",
+    "static/media/second.png": "/personaltrainer/static/media/second.b582a4f2498e4d63726a.png",
+    "static/media/third.png": "/personaltrainer/static/media/third.fb1a86e749ceaeac8e12.png",
+    "static/media/first.png": "/personaltrainer/static/media/first.f2fc0a1d52ced7e95fc1.png",
+    "index.html": "/personaltrainer/index.html",
+    "main.4b93bb30.css.map": "/personaltrainer/static/css/main.4b93bb30.css.map",
+    "main.4a82f1ba.js.map": "/personaltrainer/static/js/main.4a82f1ba.js.map",
+    "787.d5a97497.chunk.js.map": "/personaltrainer/static/js/787.d5a97497.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b93bb30.css",
+    "static/js/main.4a82f1ba.js"
+  ]
+}
